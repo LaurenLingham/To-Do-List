@@ -1,0 +1,48 @@
+.App {
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.high {
+  border: 2px solid #f70101;
+  color: #f70101;
+}
+
+li.low {
+  border: 2px solid #009222;
+}
+
+li span {
+  padding: 8px;
+}
+
+input {
+  padding: 10px;
+  margin:5px;
+}
+
+input[type="text"] {
+  width: 50%;
+}
+
+button, input[type="submit"]{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
